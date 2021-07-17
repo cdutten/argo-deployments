@@ -4,6 +4,8 @@ metadata:
   name: argo-workflow
 spec:
   template:
+    metadata:
+      name: 'argo-workflow'
     spec:
       project: default
       source:
@@ -11,4 +13,4 @@ spec:
         targetRevision: HEAD
         path: apps/argo-workflow
       destination:
-        namespace: argo
+        namespace: argocd
