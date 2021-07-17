@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: argo-workflow
+spec:
+  template:
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/cdutten/argodeployments.git
+        targetRevision: HEAD
+        path: apps/argo-workflow
+      destination:
+        namespace: argo
