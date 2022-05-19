@@ -1,3 +1,1 @@
-kustomize:
-  images:
-    - nginx:1.20.2
+
