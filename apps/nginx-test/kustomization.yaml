@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: busybox
-  newTag: "1.35"
+  newTag: 1.35.0
