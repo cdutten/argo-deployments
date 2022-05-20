@@ -5,3 +5,5 @@ resources:
 images:
 - name: busybox
   newTag: 1.29.1
+- name: nginx
+  newTag: 1.21.6
