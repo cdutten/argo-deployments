@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: nginx
-  newTag: 1.22
+  newTag: 1.21.6
