@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: cdutten/go-dummy
-  newTag: stretch-1
+  newTag: stretch-2
