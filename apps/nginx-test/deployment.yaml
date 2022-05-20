@@ -16,9 +16,6 @@ spec:
     spec:
       containers:
       - name: busybox
-        image: busybox
-        command:
-        - sleep
-        - "3600"
+        image: cdutten/go-dummy
         ports:
         - containerPort: 80
