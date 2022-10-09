@@ -11,4 +11,4 @@ spec:
     path: apps/nginx-test
   destination:
     server: https://kubernetes.default.svc
-    namespace: guestbook
+    namespace: nginx-test
