@@ -1,14 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-workflow
-  namespace: argocd
+  name: apps
 spec:
   project: default
   source:
     repoURL: https://github.com/cdutten/argo-deployments.git
     targetRevision: HEAD
-    path: apps/argo-workflow
+    path: metadata
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
