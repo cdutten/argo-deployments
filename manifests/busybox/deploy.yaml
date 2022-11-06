@@ -13,9 +13,10 @@ spec:
     metadata:
       labels:
         app: busybox
+        asd: sarasa
     spec:
       containers:
       - name: busybox
-        image: cdutten/go-dummy
+        image: cdutten/go-dummy:stretch-4
         ports:
         - containerPort: 80

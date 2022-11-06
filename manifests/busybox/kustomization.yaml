@@ -1,8 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: nginx-test
+namespace: busybox
 resources:
-- deployment.yaml
+- deploy.yaml
+- ns.yaml
+
 images:
 - name: cdutten/go-dummy
-  newTag: stretch-3
+  newTag: stretch-4
+
