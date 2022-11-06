@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: https://github.com/cdutten/argo-deployments.git
     targetRevision: HEAD
-    path: metadata
+    path: apps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
