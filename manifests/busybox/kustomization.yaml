@@ -7,5 +7,5 @@ resources:
 
 images:
 - name: cdutten/go-dummy
-  newTag: stretch-3
+  newTag: stretch-2
 

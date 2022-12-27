@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: busybox
-        image: cdutten/go-dummy:stretch-4
+        image: cdutten/go-dummy
         ports:
         - containerPort: 80
