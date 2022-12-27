@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: google-microservices-demo
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/cdutten/argo-deployments.git
+    targetRevision: HEAD
+    path: manifests/google-microservices-demo
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: google-microservices-demo
